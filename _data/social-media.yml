@@ -22,7 +22,7 @@ facebook:
   color : 3b5998
 
 github:
-  url   : https://www.github.com/
+  url   : https://www.github.com/anabneri
   icon  : fab fa-github
   color : 333333
 
@@ -32,17 +32,17 @@ gitlab:
   color : fca326
 
 instagram:
-  url   : https://www.instagram.com/
+  url   : https://www.instagram.com/anabneri
   icon  : fab fa-instagram
   color : 405de6
 
 linkedin:
-  url   : https://www.linkedin.com/in/
+  url   : https://www.linkedin.com/in/ana-beatriz-neri
   icon  : fab fa-linkedin-in
   color : 007bb5
 
 medium:
-  url   : https://medium.com/@
+  url   : https://medium.com/@neribia7
   icon  : fab fa-medium
   color : 00ab6c
 
@@ -72,7 +72,7 @@ twitch:
   color : 6441a5
 
 twitter:
-  url   : https://www.twitter.com/
+  url   : https://www.twitter.com/anabneri
   icon  : fab fa-twitter
   color : 1da1f2
 

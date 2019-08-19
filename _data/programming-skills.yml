@@ -1,11 +1,27 @@
-- name: HTML5/CSS3
-  percentage: 90
+- name: Java
+  percentage: 70
   color: danger
 
-- name: Go
+- name: Groovy
   percentage: 80
-  color:
+  color: secondary
 
-- name: Python
-  percentage: 70
+- name: Kotlin
+  percentage: 30
   color: dark
+
+- name: C++/ C#
+  percentage: 60
+  color: Light
+
+- name: IoT 
+  percentage: 70
+  color: info
+
+- name: HTML5/CSS3
+  percentage: 50
+  color: secondary
+
+- name: Android
+  percentage: 50
+  color: warning
