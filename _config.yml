@@ -1,19 +1,20 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : Ana Beatriz ();
 description         : >-                               # >- means to ignore newlines until "url:"
-                      I turn coffee into code,
-                      use tabs over spaces
-                      and never broke production.
+                      Oie sou a Ana Beatriz, 19 anos e Desenvolvedora Java e Groovy.
+                      Sou mãe de três gatinhos, amo muito beber um copão de cofé ouvindo Pink Floyd..
+                      Gosto de organizar meetups com as comunidades que participo, e espero que dê pra
+                      conhecer um pouco de mim aqui
 
-url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
-baseurl             : "/portfolYOU"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+url                 : "anabneri.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : "/anabneri.github.io"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
 repository          : YoussefRaafatNasry/portfolYOU    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
 #remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
 
 ### Author Info ###
 author:
-  name              : John Doe
-  image             : https://bit.ly/2KCvgVJ
+  name              : Ana Beatriz
+  image             : /photos/eu2.jpeg
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
