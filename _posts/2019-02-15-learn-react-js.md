@@ -1,18 +1,18 @@
 ---
-title: Learn React.js in 5 minutes
+title: Aprendendo React.js em 5 minutos
 tags: [React, JavaScript, Web Development]
 style: border
-color: primary
-description: A quick introduction to the popular JavaScript library.
+color: warning
+description: Uma rápida introdução sobre React.js em 5min.
 ---
 
 Source: [freecodecamp](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 
-This tutorial will give you a basic understanding of React.js by building a very simple application. I’ll leave out everything which I don’t think is core.
+Esse tutorial é inteiramente traduzido e adaptado por mim, então o conteúdo não é inteiramente meu!!! Mas como eu achei muito interessante, resolvi deixar no meu site, porque me ajudou e creio que pode ajudar mais pessoas! ENJOY DUDES
 
-## The setup
+## A configuração
 
-When getting started with React, you should use the simplest setup possible: an HTML file which imports the `React` and the `ReactDOM` libraries using script tags, like this:
+Ao começar a utilizar o REACT, você deve usar a configuração mais simples possível: um arquivo HTML que importa as bibliotecas `React` e `ReactDOM ` usando Tags de script, como esta:
 
 ```html
 <html>
@@ -26,7 +26,7 @@ When getting started with React, you should use the simplest setup possible: an 
     <script type="text/babel">
 
     /*
-    ADD REACT CODE HERE
+    ADICIONAR UM CÓDIGO DE REACT AQUI :P
     */
 
     </script>
@@ -34,32 +34,32 @@ When getting started with React, you should use the simplest setup possible: an 
 </html>
 ```
 
-We’ve also imported Babel, as React uses something called JSX to write markup. We’ll need to transform this JSX into plain JavaScript, so that the browser can understand it.
+Também importamos Babel, já que o React usa algo chamado JSX para escrever marcações. Vamos precisar transformar esse JSX em JavaScript simples, para que o navegador possa entendê-lo.
 
-There are more two things I want you to notice:
+Há mais duas coisas que vocês precisam observar:
 
-1. The `<div>` with the id of `#root`. This is the entry point for our app. This is where our entire app will live.
-1. The `<script type="text/babel">` tag in the body. This is where we’ll write our React.js code.
+1. a `<div>`  com o ID de `#root`. Este é o ponto de entrada para o nosso aplicativo. Este é o lugar onde todo o nosso aplicativo vai viver.
+1. o  `< script type =  "texto/babel " > ` tag no corpo. É aqui que escreveremos o nosso código React. js.
 
-If you want to experiment with the code, check out this Scrimba playground.
+Se você quiser experimentar com o código, confira este playground Scrimba.
 
-## Components
+## Componentes/ Components
 
-Everything in React is a component, and these usually take the form of JavaScript classes. You create a component by extending upon the `React-Component` class. Let’s create a component called `Hello`.
+Tudo em REACT é um componente, e estes geralmente tomam a forma de classes JavaScript. Você cria um componente estendendo-se sobre a classe  `react-component`. Vamos criar um componente chamado `Eai rapaziada`.
 
 ```javascript
 class Hello extends React.Component {
     render() {
-        return <h1>Hello world!</h1>;
+        return <h1>Eai rapaziada</h1>;
     }
 }
 ```
 
-You then define the methods for the component. In our example, we only have one method, and it’s called `render()`.
+Em seguida, você define os métodos para o componente. No nosso exemplo, nós só temos um método, e ele é chamado de `render ()`.
 
-Inside `render()` you’ll return a description of what you want React to draw on the page. In the case above, we simply want it to display an `h1` tag with the text _Hello world!_ inside it.
+Dentro de `render ()` você retornará uma descrição do que você quer reagir para desenhar na página. No caso acima, nós simplesmente queremos que ele exiba uma tag `H1` com o texto _ Hello World! _ dentro dele.
 
-To get our tiny application to render on the screen we also have to use `ReactDOM.render()`:
+Para obter o nosso pequeno aplicativo para renderizar na tela, também temos que usar `ReactDOM.render()`:
 
 ```javascript
 ReactDOM.render(
@@ -68,29 +68,29 @@ ReactDOM.render(
 );
 ```
 
-So this is where we connect our `Hello` component with the entry point for the app (`<div id="root"></div>`). It results in the following:
+Então é aqui que conectamos nosso componente  `Hello` com o ponto de entrada para o aplicativo (`<div id="root"></div>`). Isso resulta:
 
 ![](https://cdn-images-1.medium.com/max/1000/1*T-bmSzg0KlijyB3dG1M-ow.png)
 
-The HTML’ish syntax we just looked at (`<h1>` and `<Hello/>`) is the JSX code I mentioned earlier. It’s not actually HTML, though what you write there does end up as HTML tags in the DOM.
+A sintaxe de HTML'ish que apenas olhou para (`<h1>` e `<Hello/> `) é o código JSX que mencionei anteriormente. Não é realmente HTML, embora o que você escreve lá acaba como Tags HTML no DOM.
 
-The next step is to get our app to handle data.
+O próximo passo é obter o nosso aplicativo para manipular dados.
 
-## Handling data
+## Manipulação de dados
 
-There are two types of data in React: props and state. The difference between the two is a bit tricky to understand in the beginning, so don’t worry if you find it a bit confusing. It’ll become easier once you start working with them.
+Existem dois tipos de dados no React: props e State. A diferença entre os dois é um pouco complicado de entender no início, por isso não se preocupe se você encontrá-lo um pouco confuso. Vai se tornar mais fácil quando você começar a trabalhar com eles.
 
-The key difference is that state is private and can be changed from within the component itself. Props are external, and not controlled by the component itself. It’s passed down from components higher up the hierarchy, who also control the data.
+A principal diferença é que o estado é privado e pode ser alterado de dentro do próprio componente. Os adereços são externos e não são controlados pelo próprio componente. Ele é passado de componentes acima da hierarquia, que também controlam os dados.
 
-{% include elements/highlight.html text="A component can change its internal state directly. It can not change its props directly." %}
+{% include elements/highlight.html text =  "um componente pode alterar seu estado interno diretamente. Ele não pode mudar seus adereços diretamente.  "%}
 
-Let’s take a closer look at props first.
+Vamos dar uma olhada mais de perto em props/adereços primeiro.
 
-## Props
+## Props/ Adereços
 
-Our `Hello` component is very static, and it renders out the same message regardless. A big part of React is reusability, meaning the ability to write a component once, and then reuse it in different use cases — for example, to display different messages.
+Nosso componente `Hello` é muito estático e renderiza a mesma mensagem independentemente. Uma grande parte do REACT é a reutilização, o que significa a capacidade de escrever um componente uma vez e, em seguida, reutilizá-la em casos de uso diferentes — por exemplo, para exibir mensagens diferentes.
 
-To achieve this type of reusability, we’ll add props. This is how you pass props to a component:
+Para alcançar esse tipo de reutilização, adicionaremos adereços. É assim que você passa adereços para um componente:
 
 ```javascript
 ReactDOM.render(
@@ -99,7 +99,7 @@ ReactDOM.render(
 );
 ```
 
-This prop is called `message` and has the value “my friend”. We can access this prop inside the Hello component by referencing `this.props.message`, like this:
+Este prop é chamado de  `message` e tem o valor "my friend". Podemos acessar este prop dentro do componente Hello referenciando  `this. props. Message`, assim:
 
 ```javascript
 class Hello extends React.Component {
@@ -109,25 +109,25 @@ class Hello extends React.Component {
 }
 ```
 
-As a result, this is rendered on the screen:
+Como resultado, isso é renderizado na tela:
 
 ![](https://cdn-images-1.medium.com/max/1000/1*M0-2Ct0K3SARZLSwIzgdJw.png)
 
-The reason we’re writing {this.props.message} with curly braces is because we need to tell the JSX that we want to add a JavaScript expression. This is called **escaping**.
+A razão pela qual estamos escrevendo {this. props. Message} com chavetas é porque precisamos informar ao JSX que queremos adicionar uma expressão JavaScript. Isto é chamado * * escapando * *.
 
-So now we have a reusable component which can render whatever message we want on the page. Woohoo!
+Então agora temos um componente reutilizável que pode renderizar qualquer mensagem que quisermos na página. Woohoo!
 
-However, what if we want the component to be able to change its own data? Then we have to use state instead!
+No entanto, e se quisermos que o componente seja capaz de alterar seus próprios dados? Então temos que usar o estado em vez disso!
 
 ## State
 
-The other way of storing data in React is in the component’s state. And unlike props — which can’t be changed directly by the component — the state can.
+A outra maneira de armazenar dados no React está no estado do componente. E ao contrário dos props — que não podem ser alterados diretamente pelo componente — o estado pode.
 
-So if you want the data in your app to change — for example based on user interactions — it must be stored in a component’s state somewhere in the app.
+Portanto, se você quiser que os dados em seu aplicativo mudem — por exemplo, com base nas interações do usuário — ele deve ser armazenado no estado de um componente em algum lugar do aplicativo.
 
-### Initializing state
+### Inicializando o state
 
-To initialize the state, simply set `this.state` in the `constructor()` method of the class. Our state is an object which in our case only has one key called `message`.
+Para inicializar o estado, basta definir `this. State` no método `Constructor ()` da classe. Nosso estado é um objeto que, no nosso caso, só tem uma chave chamada "mensagem".
 
 ```javascript
 class Hello extends React.Component {
@@ -145,10 +145,10 @@ class Hello extends React.Component {
 }
 ```
 
-Before we set the state, we have to call `super()` in the constructor. This is because `this` is uninitialized before `super()` has been called.
+Antes de definir o estado, temos de chamar `super ()` no construtor. Isso é porque `this` é não inicializado antes `super ()` foi chamado.
 
-Changing the state
-To modify the state, simply call **this.setState()**, passing in the new state object as the argument. We’ll do this inside a method which we’ll call `updateMessage`.
+Alterando o estado
+Para modificar o estado, basta chamar **this. setState ()**, passando o novo objeto de estado como o argumento. Faremos isso dentro de um método que chamaremos de  `updateMessage`.
 
 ```javascript
 class Hello extends React.Component {
@@ -171,11 +171,11 @@ class Hello extends React.Component {
 }
 ```
 
-> Note: To make this work, we also had to bind the `this` keyword to the `updateMessage` method. Otherwise we couldn’t have accessed `this` in the method.
+> SE LIGA: para fazer isso funcionar, também tivemos que vincular a palavra-chave `this` ao método   `updateMessage`. Caso contrário, não poderíamos ter acessado `this` no método.
 
-The next step is to create a button to click on, so that we can trigger the `updateMessage()` method.
+A próxima etapa é criar um botão para clicar, para que possamos acionar o método `updateMessage ()`.
 
-So let’s add a button to the `render()` method:
+Então, vamos adicionar um botão para o método  `render ()`:
 
 ```javascript
 render() {
@@ -188,9 +188,9 @@ render() {
 }
 ```
 
-Here, we’re hooking an event listener onto the button, listening for the **onClick** event. When this is triggered, we call the **updateMessage** method.
+Aqui, estamos conectando um ouvinte de eventos no botão, ouvindo o evento **onClick**. Quando isso é acionado, chamamos o método **updateMessage**.
 
-Here’s the entire component:
+Aqui está o componente inteiro:
 
 ```javascript
 class Hello extends React.Component {
@@ -218,6 +218,11 @@ class Hello extends React.Component {
 }
 ```
 
-The **updateMessage** method then calls **this.setState()** which changes the `this.state.message` value. And when we click the button, here’s how that will play out:
+TO **updateMessage** método, em seguida, chama **this. setState ()** que altera o `this.state.message`valor. E quando clicamos no botão, aqui está como isso vai jogar fora:
 
-Congrats! You now have a very basic understanding of the most important concepts in React.
+ENTÃO É ISSO!!!
+Se você quiser saber sobre as considerações finais e o quanto fazer esse código me ajudou, vê o artigo completo no meu Dev.to
+
+<p class="text-center">
+{% include elements/button.html link="https://dev.to/anabneri_8" text="VER ARTIGO COMPLETO NO DEV.TO" %}
+</p>
