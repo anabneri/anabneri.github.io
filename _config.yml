@@ -1,10 +1,11 @@
 ### Site Settings ###
 title               : Ana Beatriz ();
 description         : >-                               # >- means to ignore newlines until "url:"
-                      Oie sou a Ana Beatriz, 19 anos e Desenvolvedora Java e Groovy.
-                      Sou mãe de três felinos, amo muito beber um copão de cofé ouvindo Pink Floyd..
-                      Gosto de organizar meetups com as comunidades que participo, e espero que dê pra
-                      conhecer um pouco de mim aqui
+                      Sou a Ana Beatriz, tenho 19 anos e Desenvolvedora Java.
+                      Sou uma amante de séries, filmes e rock! Toco violino nas horas vagas e 
+                      só funciono depois do café haha. 
+                      Aqui tem um pouco das tecnologias que eu sei, ando praticando e uns artigos que eu publico.
+                      Me segue nas redes sociais! Vamos ser webamigos :D
 
 url                 : "anabneri.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/anabneri.github.io"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
@@ -18,18 +19,18 @@ author:
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
+  facebook          : 
+  github            : 
 # gitlab            : your_username
-# instagram         : your_username
-  linkedin          : your_username
-  medium            : your_username
+  instagram         : 
+  linkedin          : 
+  medium            : 
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : your_username
+  twitter           : 
 # vimeo             : your_username
 # youtube           : your_channel_name
 
