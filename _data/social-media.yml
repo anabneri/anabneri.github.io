@@ -12,7 +12,7 @@ dribbble:
   color : 444444
 
 email:
-  url   : "mailto:"
+  url   : "mailto:neribia7@gmail.com"
   icon  : fas fa-envelope
   color : db4437
 
@@ -42,7 +42,7 @@ linkedin:
   color : 007bb5
 
 medium:
-  url   : https://medium.com/@neribia7
+  url   : https://dev.to/anabneri_8
   icon  : fab fa-medium
   color : 00ab6c
 
