@@ -8,13 +8,17 @@ weight: 3
 # **About Me**
 
 Olar, eu sou **Ana Beatriz**,<br>
-Como vocês já viram no começo haha! <br>
-Comecei no mundo da programação fazendo uns temas de site pra tumblr em XML, adorava ver pessoas usando o que
-eu produzia e amava inspecionar elementos haha <br>
-Mas como todo adolescente dei uma desanimada, e voltei em 2018, comecei na área de ERP fazendo estágio, cresci muito e aprendi sobre banco de dados SQL, sobre clientes e etc ufa hahaha <br>
-Depois disso resolvi me arriscar no mundo Java, e cá estou eu! Nunca me achava boa o suficiente para ser back end, mas eu venho me provando todos os dias, e aprendendo também...<br>
-**Tenho paixão por compartilhar** Por isso resolvi participar em organização de Meetups, pois foram elas que me ajudaram/ ajudam até hoje!
-**Vamos ser webamigos?** Me adiciona nas redes sociais e acompanhe meus artigos no [Dev.To](https://dev.to/anabneri_8)
+**Como tudo começou** <br>
+- Tudo comeceu quando eu ganhei meu primeiro notebook, e fiz uma conta no Tumbr. Sempre tive muita curiosidade, inspecionava elemento, brincava com html pelo browser etc.. Foi ai que descobri que eu podia fazer os meus próprios temas :D pra uma adolescente de 12 anos, era o paraíso.<br><br>
+**Música** <br>
+- A música me inspira, toco violino desde os 8 anos, então por um período deixei meu blog e meus temas de lado pra me dedicar mais. Porém exigia muito esforço. Meus pais não tinha condições de pagar aulas de violino então eu fazia de graça pelo governo, quando a escola fechou por falta de verba eu passei a estudar sozinha, mas, depois de entrar na etec e ver que meu tempo era pouco, passeia ter outros sonhos<br><br>
+**"Não sei programar"** <br>
+- Quando eu entrei na faculdade eu não me achava boa em programação, logo não me dedicava. Foi um período interessante, ter meu primeiro estágio e ver que o que eu julgava ser a carreira da minha vida na verdade não era.<br><br>
+**"Eu sei programar"** <br>
+- Meu sonho é poder dar uma vida melhor pra minha família, e eu queria mudar de emprego. Foi quando eu me dediquei 100% a aprender de verdade a programar, meti as caras... Hoje estou alocada como Desenvolvedora Java, uma conquista enorme pra mim que achava que não era capaz!<br><br>
+**Keep in touch** <br>
+- Eu não tenho a hisória mais linda do mundo, mas tenho pessoas que fizeram ela existir, como: meus pais, sem eles eu não seria o que eu sou hoje e o que eu busco ser todos os dias! E meus tech leaders também, muita gente me ajuda a crescer técnicamente todo dia.<br><br>
+**Me adiciona nas redes sociais e acompanhe meus artigos no [Dev.To](https://dev.to/anabneri_8)**
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
