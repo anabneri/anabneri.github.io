@@ -11,7 +11,7 @@ Olar, eu sou **Ana Beatriz**,<br>
 **Como tudo começou** <br>
 - Tudo comeceu quando eu ganhei meu primeiro notebook, e fiz uma conta no Tumbr. Sempre tive muita curiosidade, inspecionava elemento, brincava com html pelo browser etc.. Foi ai que descobri que eu podia fazer os meus próprios temas :D pra uma adolescente de 12 anos, era o paraíso.<br><br>
 **Música** <br>
-- A música me inspira, toco violino desde os 8 anos, então por um período deixei meu blog e meus temas de lado pra me dedicar mais. Porém exigia muito esforço. Meus pais não tinha condições de pagar aulas de violino então eu fazia de graça pelo governo, quando a escola fechou por falta de verba eu passei a estudar sozinha, mas, depois de entrar na etec e ver que meu tempo era pouco, passeia ter outros sonhos<br><br>
+- A música me inspira, toco violino desde os 8 anos, então por um período deixei meu blog e meus temas de lado pra me dedicar mais. Porém exigia muito esforço. Meus pais não tinha condições de pagar aulas de violino então eu fazia de graça pelo governo, quando a escola fechou por falta de verba eu passei a estudar sozinha, mas. Depois disso eu entrei na Etec e vique meu tempo era pouco, passei a praticar bem menos e deixar esse sonho de lado...<br><br>
 **"Não sei programar"** <br>
 - Quando eu entrei na faculdade eu não me achava boa em programação, logo não me dedicava. Foi um período interessante, ter meu primeiro estágio e ver que o que eu julgava ser a carreira da minha vida na verdade não era.<br><br>
 **"Eu sei programar"** <br>
