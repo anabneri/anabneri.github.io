@@ -3,7 +3,7 @@ title               : Ana Beatriz ();
 description         : >-                               # >- means to ignore newlines until "url:"
                       Sou a Ana Beatriz, tenho 19 anos e Desenvolvedora Java e Groovy.
                       Adepta a movimento de mulheres na tecnologia. Amante de livros, séries e gatinhos :)
-                      Welcome to my portfolio
+                      Welcome to my site/blog :v
 
 url                 : "anabneri.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/anabneri.github.io"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
@@ -13,7 +13,7 @@ repository          : YoussefRaafatNasry/portfolYOU    # repository metadata on 
 ### Author Info ###
 author:
   name              : Ana Beatriz
-  image             : /photos/eu.png
+  image             : /photos/euzinha.jpg
   behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
