@@ -8,7 +8,7 @@ description: If you want to read that same article in English.
 
 * **Well Welcomeeee to the series of articles on Java Virtual Machine!** *
 
-# JVM under the hoods - What is Java?
+# JVM under the hood - What is Java?
 > In this article we will address contextualization, I believe that knowing of history and other biases is important before you direct the technical part
 > The content is very extensive and technical, the goal is to make the most objective and accessible possible: relaxed:
 
@@ -21,7 +21,7 @@ description: If you want to read that same article in English.
 
 * Basically has a  "Hello World ", which goes through a type of compiler that converts the code into binary 
 
-![] (https://i.imgur.com/Ax8hq9a.png)
+![](https://i.imgur.com/Ax8hq9a.png)
 
 * **But this is too complex, think well... An operating system will read only what was compiled in it, if you run that same code in a MACOX for example would have to do everything again!!**
 * Needed optimization of processes and time 
@@ -61,7 +61,7 @@ _*This story of the emergence of the name has other versions, we will never know
 > * Okay, let's look at the beautiful story of Java, right?
 > * Now we just need to understand why the JVM...
 
-# #: Coffee: Compiling code with the JVM
+## Compiling code with the JVM
 
 * Observe the architecture below:
 ![Java compiler](https://i.imgur.com/iLDx4zS.png)
@@ -76,7 +76,7 @@ _*This story of the emergence of the name has other versions, we will never know
 
 ![Languages that run on the JVM](https://i.imgur.com/UMoSciF.png)
 
-# # # # # # And here we finish the first introductory part on JVM! I hope it was of great value, I promise to post part 2 soon
+###### And here we finish the first introductory part on JVM! I hope it was of great value, I promise to post part 2 soon
 
 
 <p class="text-center">
