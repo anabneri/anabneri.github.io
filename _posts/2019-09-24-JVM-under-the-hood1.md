@@ -33,7 +33,7 @@ description: If you want to read that same article in English.
 
 ![Compiler in C](https://i.imgur.com/mfA4Bhp.png)
 
-* We see that the * * Source code * * that I program in C it is taken to two processes that will separately transform a * * Executable code * * For each operating system:D
+* We see that the **Source code** that I program in C it is taken to two processes that will separately transform a **Executable code** For each operating system:D
 
 * It was from this multi-platform idea that the concept of the Java JVM was born...
 > Before we leave for history, what we've learned so far:
