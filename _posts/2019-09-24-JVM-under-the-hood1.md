@@ -9,8 +9,7 @@ description: If you want to read that same article in English.
 * **Well Welcomeeee to the series of articles on Java Virtual Machine!** *
 
 # JVM under the hood - What is Java?
-> In this article we will address contextualization, I believe that knowing of history and other biases is important before you direct the technical part
-> The content is very extensive and technical, the goal is to make the most objective and accessible possible: relaxed:
+> the goal here is to show it  on the most objective and accessible way for better understanding
 
 ## The compiling processes
 
@@ -49,7 +48,7 @@ description: If you want to read that same article in English.
 Until then there were no microprocessors so imagine how revolutionary this project would be!
 * And so formed the Green Team that created their own language the Green Talk** 
 * The language was renamed to OAK**
-* And so created the [Star Seven] (https://blog.caelum.com.br/tv-digital-java-e-brasil/) 
+* And so created the [Star Seven](https://jaxenter.com/java-this-is-your-life-so-far-104122.html)
 * 1992: The Star Seven project ended up getting hitted because there was no investment from the companies, *I believe that for being very revolutionary*
 * The main core of star Seven was interactivity, so guess who was interested in the language that was programmed the star seven?
 * **Tim Berners-Lee**, himself, at the time he was developing the HTML, which had as main function the interactivity with the user in real time (which did not exist yet)
