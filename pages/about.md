@@ -7,18 +7,19 @@ weight: 3
 
 # **About Me**
 
-Olar, eu sou **Ana Beatriz**,<br>
-**Como tudo começou** <br>
-- Tudo comeceu quando eu ganhei meu primeiro notebook, e fiz uma conta no Tumbr. Sempre tive muita curiosidade, inspecionava elemento, brincava com html pelo browser etc.. Foi ai que descobri que eu podia fazer os meus próprios temas :D pra uma adolescente de 12 anos, era o paraíso.<br><br>
-**Música** <br>
-- A música me inspira, toco violino desde os 8 anos, então por um período deixei meu blog e meus temas de lado pra me dedicar mais. Porém exigia muito esforço. Meus pais não tinha condições de pagar aulas de violino então eu fazia de graça pelo governo, quando a escola fechou por falta de verba eu passei a estudar sozinha, mas. Depois disso eu entrei na Etec e vique meu tempo era pouco, passei a praticar bem menos e deixar esse sonho de lado...<br><br>
-**"Não sei programar"** <br>
-- Quando eu entrei na faculdade eu não me achava boa em programação, logo não me dedicava. Foi um período interessante, ter meu primeiro estágio e ver que o que eu julgava ser a carreira da minha vida na verdade não ser.<br><br>
-**"Eu sei programar"** <br>
-- Meu somho sempre foi poder dar uma vida melhor pra minha família, e eu queria mudar de emprego. Foi quando eu me dediquei 100% a aprender de verdade a programar, meti as caras... Hoje estou alocada como Desenvolvedora Java, uma conquista enorme pra mim que achava que não era capaz!<br><br>
-**Keep in touch** <br>
-- Eu não tenho a hisória mais linda do mundo, mas tenho pessoas que fizeram ela existir, como: meus pais, sem eles eu não seria o que eu sou hoje e o que eu busco ser todos os dias! E meus tech leaders também, muita gente me ajuda a crescer técnicamente todo dia.<br><br>
-**Me adiciona nas redes sociais e acompanhe meus artigos no [Dev.To](https://dev.to/anabneri_8)**
+Heeeey THERE, I'm Ana Beatriz * *, <br>
+* * How it all started * * <br>
+-It all worked out when I won my first notebook, and I made an account at TUMBR. I always had a lot of curiosity, inspected element, played with HTML by browser etc.. That's when I found out I could make my own themes:D For a 12-year-old teenager, it was paradise. <br><br>
+* * Music * * <br>
+-Music inspires me, I play the violin since I was 8 years old, so for a period I left my blog and my themes aside to devote myself more. But it demanded a lot of effort. My parents couldn't afford to pay for violin lessons so I did it for free by the government, when school closed for lack of funds I went to study alone, but. After that I joined Etec and saw my time was little, I went to practice much less and leave this dream aside... <br><br>
+* *  "Do not know how to program " * * <br>
+-When I got into college, I didn't think I was good at programming, so I didn't. It was an interesting period, having my first internship and seeing that what I thought was the career of my life is actually not. <br> <br>
+* *  "I know how to program " * * <br>
+My Soho was always able to give my family a better life, and I wanted to change jobs. That's when I gave myself 100% to really learn how to program, I put my faces... Today I am allocated as Java developer, a huge achievement for me that I thought I could not! <br><br>
+* * Keep in touch * * <br>
+-I do not have the most beautiful hisory in the world, but I have people who made it exist, like: my parents, without them I would not be what I am today and what I seek to be every day! And my tech leaders too, a lot of people help me grow technologically every day. <br> <br>
+* * Add Me to social networks and follow my articles in [Dev. To] (https://anabneri_8) * *
+
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
