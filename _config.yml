@@ -2,8 +2,9 @@
 title               : Ana Beatriz ();
 description         : >-                               # >- means to ignore newlines until "url:"
                       Hi, I'm Ana Beatriz Neri, developer back end Java and Groovy Grails.
-I found myself in the Dev area the possibility of changing people around me and me.
-I love to help the community of T. I, and of cute cats! Take a run at my blog and follow me on social networks to be friends!
+                      I found myself in the Dev area the possibility of changing people around me and me.
+                        I love to help the community of T. I, and of cute cats! 
+                        Take a run at my blog and follow me on social networks to be friends!
 
 url                 : "anabneri.github.io"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : "/anabneri.github.io"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]

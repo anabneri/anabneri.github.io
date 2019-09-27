@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "JVM Under The Hoods part1 - What is Java?",
+      "category" : "",
+      "tags"     : "Java, JVM, Advanced",
+      "url"      : "/anabneri.github.io/articles/JVM-under-the-hood1",
+      "date"     : "2019-09-24 00:00:00 -0300"
+    } ,
+  
+    {
       "title"    : "Aprendendo React.js em 5 minutos",
       "category" : "",
       "tags"     : "React, JavaScript, Web Development",

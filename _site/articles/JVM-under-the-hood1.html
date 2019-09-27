@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hi, I'm Ana Beatriz Neri, developer back end Java and Groovy Grails. I found myself in the Dev area the possibility of changing people around me and me.
+  I love to help the community of T. I, and of cute cats! 
+  Take a run at my blog and follow me on social networks to be friends!">
+
+  <title>Ana Beatriz ();</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/anabneri.github.io/assets/favicon.ico">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/anabneri.github.io/assets/css/style.css" type="text/css">
+
+</head>
+
+
+<body class="d-flex flex-column h-100">
+
+  <main class="flex-shrink-0 container mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light">
+
+  <a class="navbar-brand" href="/anabneri.github.io/"><h5><b>Ana Beatriz ();</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto">
+      
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="nav-item nav-link " href=" /anabneri.github.io/projects/ ">Projects</a>
+          
+        
+      
+        
+          
+            <a class="nav-item nav-link  active " href=" /anabneri.github.io/articles/ ">Articles</a>
+          
+        
+      
+        
+          
+            <a class="nav-item nav-link " href=" /anabneri.github.io/about/ ">About</a>
+          
+        
+      
+    </div>
+  </div>
+
+</nav>
+  <div class="col-lg-10 mx-auto mt-5 article">
+  <h1><b>JVM Under The Hoods part1 - What is Java?</b></h1>
+
+<p class="article-metadata text-muted">
+  24 September 2019 -  
+  <b>
+  
+  
+    4 mins read time
+  
+  </b>
+
+  <br>
+
+  
+    Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/anabneri.github.io/articles/tags#java">
+      <span class="tag badge badge-pill text-primary border border-primary">Java</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/anabneri.github.io/articles/tags#jvm">
+      <span class="tag badge badge-pill text-primary border border-primary">JVM</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/anabneri.github.io/articles/tags#advanced">
+      <span class="tag badge badge-pill text-primary border border-primary">Advanced</span>
+    </a>
+    
+  
+
+</p>
+
+<ul>
+  <li><strong>Well Welcomeeee to the series of articles on Java Virtual Machine!</strong> *</li>
+</ul>
+
+<h1 id="jvm-under-the-hood---what-is-java">JVM under the hood - What is Java?</h1>
+<blockquote>
+  <p>the goal here is to show it  on the most objective and accessible way for better understanding</p>
+</blockquote>
+
+<h2 id="the-compiling-processes">The compiling processes</h2>
+
+<ul>
+  <li>It all starts with the history of high-level language computers where the same only understood _micro _instructions</li>
+  <li>Know the code you write? Your computer doesn’t understand it, it never understood… Yes they’re pretty dumb!</li>
+  <li>In fact your computer understands the <strong>Executable code</strong></li>
+  <li>
+    <p>Let’s take as an example an “old “ language, like <strong>Assembly</strong>, see the architecture:</p>
+  </li>
+  <li>Basically has a  “Hello World “, which goes through a type of compiler that converts the code into binary</li>
+</ul>
+
+<p><img src="https://i.imgur.com/Ax8hq9a.png" alt="" /></p>
+
+<ul>
+  <li><strong>But this is too complex, think well… An operating system will read only what was compiled in it, if you run that same code in a MACOX for example would have to do everything again!!</strong></li>
+  <li>Needed optimization of processes and time</li>
+</ul>
+
+<h2 id="compiling-process-in-c">Compiling process in C</h2>
+
+<ul>
+  <li>Enough people have prejudice with C right, but did you know that Java was based on C?</li>
+  <li>Why was the C language revolutionary for the time it became a multiplatform or <strong>has a compiler for each operating system (OS)</strong></li>
+  <li>The process of compiling in C is quite simple, see in Architecture:</li>
+</ul>
+
+<p><img src="https://i.imgur.com/mfA4Bhp.png" alt="Compiler in C" /></p>
+
+<ul>
+  <li>
+    <p>We see that the <strong>Source code</strong> that I program in C it is taken to two processes that will separately transform a <strong>Executable code</strong> For each operating system:D</p>
+  </li>
+  <li>
+    <p>It was from this multi-platform idea that the concept of the Java JVM was born…</p>
+    <blockquote>
+      <p>Before we leave for history, what we’ve learned so far:
+<strong>Source code:</strong> is the sequence of commands that I, programming person write.
+<strong>Executable code:</strong> is the sequence of commands that the computer understands.</p>
+      <ul>
+        <li>C language is cross-platform.**
+<strong>Java was based on C</strong></li>
+      </ul>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="a-brief-story-about-java">A brief story about Java</h2>
+
+<ul>
+  <li>1990: Sun Microsystems created a project led by James Gosling based on C++ in order to create a technology where different devices could communicate with each other.
+Until then there were no microprocessors so imagine how revolutionary this project would be!</li>
+  <li>And so formed the Green Team that created their own language the Green Talk**</li>
+  <li>The language was renamed to OAK**</li>
+  <li>And so created the <a href="https://jaxenter.com/java-this-is-your-life-so-far-104122.html">Star Seven</a></li>
+  <li>1992: The Star Seven project ended up getting hitted because there was no investment from the companies, <em>I believe that for being very revolutionary</em></li>
+  <li>The main core of star Seven was interactivity, so guess who was interested in the language that was programmed the star seven?</li>
+  <li><strong>Tim Berners-Lee</strong>, himself, at the time he was developing the HTML, which had as main function the interactivity with the user in real time (which did not exist yet)</li>
+  <li>That’s how we joined the Gem and the Clear (bad joke: woman_facepalming:)</li>
+  <li>Thus came the <strong>WebRunner</strong> that allowed INTERACTIVITY</li>
+  <li>So now it was just changing the name of the language because Oak already existed in the market, it was when Gosling gathered his group and renamed it to JAVA, because it is a term that Americans have when they want very strong coffee,  <strong>Java Coffee</strong>, since we programmers only work the B Coffee, nothing fairer
+_<em>This story of the emergence of the name has other versions, we will never know for sure I think, who knows someday I have the opportunity to talk to someone who was from Sun Microsystems</em></li>
+</ul>
+
+<blockquote>
+  <ul>
+    <li>Okay, let’s look at the beautiful story of Java, right?</li>
+    <li>Now we just need to understand why the JVM…</li>
+  </ul>
+</blockquote>
+
+<h2 id="compiling-code-with-the-jvm">Compiling code with the JVM</h2>
+
+<ul>
+  <li>
+    <p>Observe the architecture below:
+<img src="https://i.imgur.com/iLDx4zS.png" alt="Java compiler" /></p>
+  </li>
+  <li>
+    <p>The code after done goes through the Java Compiler or JavaC —&gt; After that within the JavaC your source code is converted to Bytecode —&gt; The JVM reads this Bytecode and converts it to executable code.</p>
+  </li>
+  <li>
+    <p>The JVM’s balcony is the <strong>BYTECODE</strong>, the JVM language, thus enabling a multiversion for any operating system</p>
+  </li>
+  <li>
+    <p>And the coolest of all this is that when you download your Java on your machine The JVM already comes along, do not need to go looking (comes the JVM and more a lot of other features, worth remembering).</p>
+  </li>
+</ul>
+
+<blockquote>
+  <p>This write concept where Run Anywhere makes it possible for several other languages to roll in the JVM, especially the “hipsters” languages</p>
+</blockquote>
+
+<p><img src="https://i.imgur.com/UMoSciF.png" alt="Languages that run on the JVM" /></p>
+
+<h6 id="and-here-we-finish-the-first-introductory-part-on-jvm-i-hope-it-was-of-great-value-i-promise-to-post-part-2-soon">And here we finish the first introductory part on JVM! I hope it was of great value, I promise to post part 2 soon</h6>
+
+<p class="text-center">
+<a class="m-1 btn btn-outline-primary btn-2 " href="https://dev.to/anabneri_8">
+  If you want to read that same article in Portuguese
+</a>
+</p>
+
+
+<footer>
+  This Article is <b>open source</b>. Noticed a typo? </br>
+  Or something unclear? Improve it on <a href="https://github.com/YoussefRaafatNasry/portfolYOU/edit/gh-pages/_posts/2019-09-24-JVM-under-the-hood1.md">GitHub</a>.
+</footer>
+</div>
+  </main>
+
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Ana Beatriz</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center">
+
+  
+
+  
+
+    
+    
+      
+
+    
+    
+      
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.behance.net/your_username"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1769ff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-behance fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="mailto:neribia7@gmail.comusername@domain.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.facebook.com/"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.github.com/anabneri"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.instagram.com/anabneri"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.linkedin.com/in/ana-beatriz-neri"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://dev.to/anabneri_8"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a>
+  
+  
+
+    
+    
+
+    
+    <a class="social mx-1"  href="https://www.twitter.com/anabneri"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+  
+  
+
+</div>
+
+</footer>
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Card Animation jQuery -->
+<script src="/anabneri.github.io/assets/js/card-animation.js"></script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+
+</body>
+
+</html>
