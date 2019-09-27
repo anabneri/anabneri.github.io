@@ -1,7 +1,7 @@
 ---
-name: Groovy para iniciantes
+name: Groovy for beginners
 tools: [Groovy, Java]
 image: 
-description: Minha palestra sobre o Groovy, como instalar, o que ele tem de melhor do Java e etc.
+description: My talk about Groovy, how to install, what it has better Java and etc.
 external_url: https://github.com/anabneri/TalkGroovyBeginners
 ---

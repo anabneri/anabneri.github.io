@@ -1,7 +1,7 @@
 ---
-name: Meus Estudos de Kotlin 
+name: My Android Studies
 tools: [Kotlin, mobile]
 image: 
-description: Nesse repositório eu decidi colocar alguns projetinhos que faço sobre Kotlin, aprender e compartilhar com a gelera o/.
-external_url: https://github.com/anabneri/KotlinStudies
+description: In this repository I decided to put some designs that I do on Android using Kotlin in the backend learn and share with the friends O/.
+external_url: https://github.com/anabneri/AndroidStudies
 ---

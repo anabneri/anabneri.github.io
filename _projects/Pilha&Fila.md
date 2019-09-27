@@ -1,17 +1,16 @@
 ---
-name: Jogo de Baralho 
+name: Playing game, or "Baralho" Game 
 tools: [Java, Pilha, Fila]
 image: 
-description: Projeto feito na aula de Estrutura de Dados, que simula um Jogo de baralho usando os conceitos de pilha e fila hahaha (me diverti horrores codando isso)
+description: Project made in the data structure class, which simulates a game of cards using the concepts of stack and queue hahaha (I had fun horrors coding this)
 ---
 
-# Pilha e Fila WTF is this
+# Stack and queue WTF is this
 
-Você já deve ter ouvido esse conceito né, vou 
-explicar rapidamente o que significa:  **Pilha** é só lembrar de um empilhamento de livros, o primeiro que entra é o primeiro que sai ;)  **Fila** é só lembrar de uma fila mesmo, (caixa de supermecado, fila do banco etc) e tem dois tipo **FIFO** primeiro que entra é primeiro que sai & **LIFO** último que entra é o primeiro que sai. 
-Deboa né, quiser aprender mais só dar uma conferida no meu repositŕoio no Github
+You must have heard that concept right, I'm going to 
+Explain quickly what it means: **Stack** is just remembering a stacking of books, the first that enters is the first that comes out;) * * Queue * * is just remember a queue even, (supermeted box, bank queue etc) and has two type **FIFO** First that enters is first  That comes out & **LIFO** Last that enters is the first that comes out. 
+Deboa né, want to learn more just give a check on my repositŕoio on Github
 
-
-<p class="text-center">
-{% include elements/button.html link="https://github.com/anabneri/BaralhoGame" text="Ver mais" %}
+< P class =  "text-center" >
+{% include elements/button.html link =  "https::/Github.com/anabneri/baralhogame" text =  "See more "%}
 </p>

@@ -1,7 +1,7 @@
 ---
-name: Códigos para testar a memória da sua JVM 
-tools: [Java, jvm]
+name: Code to test the memory of your JVM 
+tools: [Java, jvm, advanced]
 image: 
-description: Aqui você vai encontrar uns códigos que eu fiz usando uma lib que o java ja te proporciona pra testar a memória da JVM.
+description: Here you will find some codes that I did using a lib that Java already provides you to test the JVM memory.
 external_url: https://github.com/anabneri/JVM-memory
 ---
