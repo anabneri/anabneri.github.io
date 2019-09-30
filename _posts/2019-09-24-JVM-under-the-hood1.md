@@ -3,6 +3,7 @@ title: JVM Under The Hoods part1 - What is Java?
 tags: [Java, JVM, Advanced]
 style: border
 color: dark
+comments: true
 description: If you want to read that same article in English.
 ---
 
