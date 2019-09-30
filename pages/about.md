@@ -17,7 +17,7 @@ My dream was always able to give my family a better life, and I wanted to change
 **Keep in touch** <br>
 I don't have the most beautiful history in the world, but I have people who made it exist, like: my parents, without them I wouldn't be what I'm today and what I seek to be every day! And my tech leaders too, a lot of people help me grow technologically every day. <br> <br>
 
-**Add Me to social networks and follow my articles in [Dev. To] (https://anabneri_8)**
+**Add Me to social networks and follow my articles in [Dev. To](https://dev.to/anabneri_8)**
 
 
 <div class="row">
